@@ -69,3 +69,8 @@ I have already spend 2.5 years in maladeptive daydreaming, Now i want to rescue 
 2. Be descipline for your work day by day you will see improvement.
 
 Tutorship internship start karte hai
+
+# Personal Notes
+
+- 4th semester is going to hard for me.
+- recluze and my brother is best teacher i have ever had.
