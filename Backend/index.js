@@ -2,13 +2,12 @@ import express, { json } from "express";
 import mongoose from "mongoose";
 import jwt from "jsonwebtoken";
 import bcrypt from "bcryptjs";
+const DB_PASSD = process.env.DB_PASSD;
 import "dotenv/config";
 const PORT = 3000;
 const app = express();
 app.use(json());
-
-const uri =
-  "mongodb+srv://recluzedev:tHzwvXs7oFxLqUTA@user.eruveun.mongodb.net/image-processing-service?retryWrites=true&w=majority";
+const uri = `mongodb+srv://recluzedev:${DB_PASSD}@user.eruveun.mongodb.net/image-processing-service?retryWrites=true&w=majority`;
 
 // Database Connection
 mongoose
