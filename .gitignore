@@ -1,0 +1,5 @@
+# The **/ syntax is a "glob" pattern that tells Git to look for those files or folders in any subdirectory. This ensures that Backend/node_modules, Frontend/node_modules, and any other nested environments are ignored automatically.
+
+# Exclude node_modules and .env from any directory
+**/node_modules/
+**/.env
